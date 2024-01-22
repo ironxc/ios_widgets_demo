@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'dart:convert';
 
 import 'article_screen.dart';
 import 'news_data.dart';
@@ -13,8 +14,8 @@ import 'news_data.dart';
 // New: Add these constants
 // TO DO: Replace with your App Group ID
 const String appGroupId = 'group.widgetshome';
-const String iOSWidgetName = 'NewsWidgets';
-const String androidWidgetName = 'NewsWidget';
+const String iOSWidgetName = 'widgets2';
+const String androidWidgetName = 'widgets2';
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
@@ -22,12 +23,31 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
+class Item {
+  Item({required this.name, required this.status, required this.color});
+
+  late String name;
+  late String color;
+  late int status;
+  Map<String, dynamic> toJson() => <String, dynamic>{
+        'name': name,
+        'color': color,
+        'status': status,
+      };
+  String toJsonString() {
+    return jsonEncode(toJson());
+  }
+}
+
 // New: add this function
 void updateHeadline(NewsArticle newHeadline) {
   // Save the headline data to the widget
-  HomeWidget.saveWidgetData<String>('headline_title', newHeadline.title);
-  HomeWidget.saveWidgetData<String>(
-      'headline_description', newHeadline.description);
+  List<Item> list = [
+    Item(color: '235,85,70,1', name: '111', status: 1),
+    Item(color: '235,85,70,1', name: '222', status: 0),
+  ];
+  String value = jsonEncode(list.map((item) => item.toJson()).toList());
+  HomeWidget.saveWidgetData('value', value);
   HomeWidget.updateWidget(
     iOSName: iOSWidgetName,
     androidName: androidWidgetName,

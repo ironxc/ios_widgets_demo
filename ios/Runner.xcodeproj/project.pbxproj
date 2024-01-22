@@ -11,24 +11,24 @@
 		23B7C34912317DDDEE7F1CE3 /* Pods_Runner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49F2AF0CE8857269E47A203C /* Pods_Runner.framework */; };
 		3B3967161E833CAA004F5970 /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3B3967151E833CAA004F5970 /* AppFrameworkInfo.plist */; };
 		74858FAF1ED2DC5600515810 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74858FAE1ED2DC5600515810 /* AppDelegate.swift */; };
-		94DE23672B55094200B93C10 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1961212948FFFC00B6DEF1 /* WidgetKit.framework */; };
-		94DE23682B55094200B93C10 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1961232948FFFC00B6DEF1 /* SwiftUI.framework */; };
-		94DE236B2B55094200B93C10 /* NewsWidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE236A2B55094200B93C10 /* NewsWidgetsBundle.swift */; };
-		94DE236D2B55094200B93C10 /* NewsWidgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DE236C2B55094200B93C10 /* NewsWidgets.swift */; };
-		94DE236F2B55094300B93C10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DE236E2B55094300B93C10 /* Assets.xcassets */; };
-		94DE23732B55094300B93C10 /* NewsWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 94DE23662B55094200B93C10 /* NewsWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		94EBE6A32B56185200B64390 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1961212948FFFC00B6DEF1 /* WidgetKit.framework */; };
+		94EBE6A42B56185200B64390 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1961232948FFFC00B6DEF1 /* SwiftUI.framework */; };
+		94EBE6A72B56185200B64390 /* widgets2Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EBE6A62B56185200B64390 /* widgets2Bundle.swift */; };
+		94EBE6A92B56185200B64390 /* widgets2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94EBE6A82B56185200B64390 /* widgets2.swift */; };
+		94EBE6AB2B56185300B64390 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94EBE6AA2B56185300B64390 /* Assets.xcassets */; };
+		94EBE6AF2B56185300B64390 /* widgets2Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 94EBE6A22B56185200B64390 /* widgets2Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		97C146FC1CF9000F007C117D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FA1CF9000F007C117D /* Main.storyboard */; };
 		97C146FE1CF9000F007C117D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FD1CF9000F007C117D /* Assets.xcassets */; };
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		94DE23712B55094300B93C10 /* PBXContainerItemProxy */ = {
+		94EBE6AD2B56185300B64390 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 97C146E61CF9000F007C117D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 94DE23652B55094200B93C10;
-			remoteInfo = NewsWidgetsExtension;
+			remoteGlobalIDString = 94EBE6A12B56185200B64390;
+			remoteInfo = widgets2Extension;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -49,7 +49,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				94DE23732B55094300B93C10 /* NewsWidgetsExtension.appex in Embed Foundation Extensions */,
+				94EBE6AF2B56185300B64390 /* widgets2Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -65,12 +65,22 @@
 		74858FAD1ED2DC5600515810 /* Runner-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Runner-Bridging-Header.h"; sourceTree = "<group>"; };
 		74858FAE1ED2DC5600515810 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7AFA3C8E1D35360C0083082E /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = Flutter/Release.xcconfig; sourceTree = "<group>"; };
-		94DE23662B55094200B93C10 /* NewsWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NewsWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DE236A2B55094200B93C10 /* NewsWidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsWidgetsBundle.swift; sourceTree = "<group>"; };
 		94DE236C2B55094200B93C10 /* NewsWidgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsWidgets.swift; sourceTree = "<group>"; };
 		94DE236E2B55094300B93C10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94DE23702B55094300B93C10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94EBE66F2B55148800B64390 /* NewsWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NewsWidgetsExtension.entitlements; sourceTree = "<group>"; };
+		94EBE68F2B5573A000B64390 /* widgetshomeBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgetshomeBundle.swift; sourceTree = "<group>"; };
+		94EBE6912B5573A000B64390 /* widgetshome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgetshome.swift; sourceTree = "<group>"; };
+		94EBE6932B5573A200B64390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94EBE6952B5573A200B64390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94EBE69D2B5573C900B64390 /* widgetshomeExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = widgetshomeExtension.entitlements; sourceTree = "<group>"; };
+		94EBE6A22B56185200B64390 /* widgets2Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgets2Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		94EBE6A62B56185200B64390 /* widgets2Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgets2Bundle.swift; sourceTree = "<group>"; };
+		94EBE6A82B56185200B64390 /* widgets2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgets2.swift; sourceTree = "<group>"; };
+		94EBE6AA2B56185300B64390 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94EBE6AC2B56185300B64390 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94EBE6B42B56185900B64390 /* widgets2Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = widgets2Extension.entitlements; sourceTree = "<group>"; };
 		9740EEB21CF90195004384FC /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = Flutter/Debug.xcconfig; sourceTree = "<group>"; };
 		9740EEB31CF90195004384FC /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Generated.xcconfig; path = Flutter/Generated.xcconfig; sourceTree = "<group>"; };
 		97C146EE1CF9000F007C117D /* Runner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Runner.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -86,12 +96,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		94DE23632B55094200B93C10 /* Frameworks */ = {
+		94EBE69F2B56185200B64390 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94DE23682B55094200B93C10 /* SwiftUI.framework in Frameworks */,
-				94DE23672B55094200B93C10 /* WidgetKit.framework in Frameworks */,
+				94EBE6A42B56185200B64390 /* SwiftUI.framework in Frameworks */,
+				94EBE6A32B56185200B64390 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +137,28 @@
 			path = NewsWidgets;
 			sourceTree = "<group>";
 		};
+		94EBE68E2B5573A000B64390 /* widgetshome */ = {
+			isa = PBXGroup;
+			children = (
+				94EBE68F2B5573A000B64390 /* widgetshomeBundle.swift */,
+				94EBE6912B5573A000B64390 /* widgetshome.swift */,
+				94EBE6932B5573A200B64390 /* Assets.xcassets */,
+				94EBE6952B5573A200B64390 /* Info.plist */,
+			);
+			path = widgetshome;
+			sourceTree = "<group>";
+		};
+		94EBE6A52B56185200B64390 /* widgets2 */ = {
+			isa = PBXGroup;
+			children = (
+				94EBE6A62B56185200B64390 /* widgets2Bundle.swift */,
+				94EBE6A82B56185200B64390 /* widgets2.swift */,
+				94EBE6AA2B56185300B64390 /* Assets.xcassets */,
+				94EBE6AC2B56185300B64390 /* Info.plist */,
+			);
+			path = widgets2;
+			sourceTree = "<group>";
+		};
 		9740EEB11CF90186004384FC /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,10 +173,14 @@
 		97C146E51CF9000F007C117D = {
 			isa = PBXGroup;
 			children = (
+				94EBE6B42B56185900B64390 /* widgets2Extension.entitlements */,
+				94EBE69D2B5573C900B64390 /* widgetshomeExtension.entitlements */,
 				94EBE66F2B55148800B64390 /* NewsWidgetsExtension.entitlements */,
 				9740EEB11CF90186004384FC /* Flutter */,
 				97C146F01CF9000F007C117D /* Runner */,
 				94DE23692B55094200B93C10 /* NewsWidgets */,
+				94EBE68E2B5573A000B64390 /* widgetshome */,
+				94EBE6A52B56185200B64390 /* widgets2 */,
 				9A1961202948FFFC00B6DEF1 /* Frameworks */,
 				97C146EF1CF9000F007C117D /* Products */,
 				9282100BC5750A8AF00F1CD4 /* Pods */,
@@ -155,7 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				97C146EE1CF9000F007C117D /* Runner.app */,
-				94DE23662B55094200B93C10 /* NewsWidgetsExtension.appex */,
+				94EBE6A22B56185200B64390 /* widgets2Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -189,21 +225,21 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		94DE23652B55094200B93C10 /* NewsWidgetsExtension */ = {
+		94EBE6A12B56185200B64390 /* widgets2Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 94DE23772B55094300B93C10 /* Build configuration list for PBXNativeTarget "NewsWidgetsExtension" */;
+			buildConfigurationList = 94EBE6B02B56185400B64390 /* Build configuration list for PBXNativeTarget "widgets2Extension" */;
 			buildPhases = (
-				94DE23622B55094200B93C10 /* Sources */,
-				94DE23632B55094200B93C10 /* Frameworks */,
-				94DE23642B55094200B93C10 /* Resources */,
+				94EBE69E2B56185200B64390 /* Sources */,
+				94EBE69F2B56185200B64390 /* Frameworks */,
+				94EBE6A02B56185200B64390 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NewsWidgetsExtension;
-			productName = NewsWidgetsExtension;
-			productReference = 94DE23662B55094200B93C10 /* NewsWidgetsExtension.appex */;
+			name = widgets2Extension;
+			productName = widgets2Extension;
+			productReference = 94EBE6A22B56185200B64390 /* widgets2Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 		97C146ED1CF9000F007C117D /* Runner */ = {
@@ -211,19 +247,19 @@
 			buildConfigurationList = 97C147051CF9000F007C117D /* Build configuration list for PBXNativeTarget "Runner" */;
 			buildPhases = (
 				5D390FDDB01EA1B44C33AF6B /* [CP] Check Pods Manifest.lock */,
+				9705A1C41CF9048500538489 /* Embed Frameworks */,
+				EB7A56367F54EA5D752EBF12 /* [CP] Embed Pods Frameworks */,
 				9740EEB61CF901F6004384FC /* Run Script */,
 				97C146EA1CF9000F007C117D /* Sources */,
 				97C146EB1CF9000F007C117D /* Frameworks */,
 				97C146EC1CF9000F007C117D /* Resources */,
 				9A1961352948FFFF00B6DEF1 /* Embed Foundation Extensions */,
-				9705A1C41CF9048500538489 /* Embed Frameworks */,
 				3B06AD1E1E4923F5004D2608 /* Thin Binary */,
-				EB7A56367F54EA5D752EBF12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				94DE23722B55094300B93C10 /* PBXTargetDependency */,
+				94EBE6AE2B56185300B64390 /* PBXTargetDependency */,
 			);
 			name = Runner;
 			productName = Runner;
@@ -240,7 +276,7 @@
 				LastUpgradeCheck = 1430;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
-					94DE23652B55094200B93C10 = {
+					94EBE6A12B56185200B64390 = {
 						CreatedOnToolsVersion = 15.1;
 					};
 					97C146ED1CF9000F007C117D = {
@@ -263,17 +299,17 @@
 			projectRoot = "";
 			targets = (
 				97C146ED1CF9000F007C117D /* Runner */,
-				94DE23652B55094200B93C10 /* NewsWidgetsExtension */,
+				94EBE6A12B56185200B64390 /* widgets2Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		94DE23642B55094200B93C10 /* Resources */ = {
+		94EBE6A02B56185200B64390 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94DE236F2B55094300B93C10 /* Assets.xcassets in Resources */,
+				94EBE6AB2B56185300B64390 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,12 +400,12 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		94DE23622B55094200B93C10 /* Sources */ = {
+		94EBE69E2B56185200B64390 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94DE236D2B55094200B93C10 /* NewsWidgets.swift in Sources */,
-				94DE236B2B55094200B93C10 /* NewsWidgetsBundle.swift in Sources */,
+				94EBE6A92B56185200B64390 /* widgets2.swift in Sources */,
+				94EBE6A72B56185200B64390 /* widgets2Bundle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,10 +421,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		94DE23722B55094300B93C10 /* PBXTargetDependency */ = {
+		94EBE6AE2B56185300B64390 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 94DE23652B55094200B93C10 /* NewsWidgetsExtension */;
-			targetProxy = 94DE23712B55094300B93C10 /* PBXContainerItemProxy */;
+			target = 94EBE6A12B56185200B64390 /* widgets2Extension */;
+			targetProxy = 94EBE6AD2B56185300B64390 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -489,7 +525,7 @@
 			};
 			name = Profile;
 		};
-		94DE23742B55094300B93C10 /* Debug */ = {
+		94EBE6B12B56185400B64390 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -501,7 +537,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = NewsWidgetsExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = widgets2Extension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -509,8 +545,8 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NewsWidgets/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NewsWidgets;
+				INFOPLIST_FILE = widgets2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widgets2;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -522,7 +558,7 @@
 				MARKETING_VERSION = 1.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.resumeis.yourtime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.resumeis.yourtime.widgets2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
@@ -533,7 +569,7 @@
 			};
 			name = Debug;
 		};
-		94DE23752B55094300B93C10 /* Release */ = {
+		94EBE6B22B56185400B64390 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -545,7 +581,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = NewsWidgetsExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = widgets2Extension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -553,8 +589,8 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NewsWidgets/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NewsWidgets;
+				INFOPLIST_FILE = widgets2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widgets2;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -565,7 +601,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.resumeis.yourtime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.resumeis.yourtime.widgets2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -574,7 +610,7 @@
 			};
 			name = Release;
 		};
-		94DE23762B55094300B93C10 /* Profile */ = {
+		94EBE6B32B56185400B64390 /* Profile */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -586,7 +622,7 @@
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CODE_SIGN_ENTITLEMENTS = NewsWidgetsExtension.entitlements;
+				CODE_SIGN_ENTITLEMENTS = widgets2Extension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -594,8 +630,8 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = NewsWidgets/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = NewsWidgets;
+				INFOPLIST_FILE = widgets2/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widgets2;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -606,7 +642,7 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.resumeis.yourtime;
+				PRODUCT_BUNDLE_IDENTIFIER = com.resumeis.yourtime.widgets2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -780,12 +816,12 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		94DE23772B55094300B93C10 /* Build configuration list for PBXNativeTarget "NewsWidgetsExtension" */ = {
+		94EBE6B02B56185400B64390 /* Build configuration list for PBXNativeTarget "widgets2Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				94DE23742B55094300B93C10 /* Debug */,
-				94DE23752B55094300B93C10 /* Release */,
-				94DE23762B55094300B93C10 /* Profile */,
+				94EBE6B12B56185400B64390 /* Debug */,
+				94EBE6B22B56185400B64390 /* Release */,
+				94EBE6B32B56185400B64390 /* Profile */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

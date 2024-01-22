@@ -2,13 +2,11 @@ class NewsArticle {
   final String title;
   final String description;
   final String? articleText;
-  final String? image;
 
   NewsArticle({
     required this.title,
     required this.description,
     this.articleText = loremIpsum,
-    this.image,
   });
 }
 
